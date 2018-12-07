@@ -1,0 +1,25 @@
+﻿Build started 2018/11/2 16:09:42.
+     1>Project "F:\MyProject\C++\visual studio 2015\carPlateRecognition_OOP\carPlateRecognition_OOP\carPlateRecognition_OOP.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt chars_segment.cpp main.cpp plate.cpp svm_train.cpp
+         svm_train.cpp
+     1>f:\myproject\c++\visual studio 2015\carplaterecognition_oop\carplaterecognition_oop\svm_train.cpp(138): warning C4244: 'argument': conversion from '__int64' to 'intptr_t', possible loss of data
+     1>f:\myproject\c++\visual studio 2015\carplaterecognition_oop\carplaterecognition_oop\svm_train.cpp(139): warning C4244: 'argument': conversion from '__int64' to 'intptr_t', possible loss of data
+         plate.cpp
+     1>f:\myproject\c++\visual studio 2015\carplaterecognition_oop\carplaterecognition_oop\plate.cpp(146): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>f:\myproject\c++\visual studio 2015\carplaterecognition_oop\carplaterecognition_oop\plate.cpp(147): warning C4305: 'initializing': truncation from 'double' to 'float'
+         main.cpp
+         chars_segment.cpp
+     1>f:\myproject\c++\visual studio 2015\carplaterecognition_oop\carplaterecognition_oop\chars_segment.cpp(132): warning C4018: '<': signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\MyProject\C++\visual studio 2015\carPlateRecognition_OOP\Debug\carPlateRecognition_OOP.exe" /INCREMENTAL /NOLOGO opencv_world343.lib opencv_world343d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\MyProject\C++\visual studio 2015\carPlateRecognition_OOP\Debug\carPlateRecognition_OOP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\MyProject\C++\visual studio 2015\carPlateRecognition_OOP\Debug\carPlateRecognition_OOP.lib" /MACHINE:X86 Debug\chars_segment.obj
+         Debug\main.obj
+         Debug\plate.obj
+         Debug\svm_train.obj
+     1>opencv_world343.lib(opencv_world343.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>Done Building Project "F:\MyProject\C++\visual studio 2015\carPlateRecognition_OOP\carPlateRecognition_OOP\carPlateRecognition_OOP.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.47

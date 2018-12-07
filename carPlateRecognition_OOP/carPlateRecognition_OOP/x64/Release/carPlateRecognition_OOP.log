@@ -1,0 +1,23 @@
+﻿Build started 2018/11/6 14:40:42.
+     1>Project "F:\MyProject\C++\visual studio 2015\carPlateRecognition_OOP\carPlateRecognition_OOP\carPlateRecognition_OOP.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt chars.cpp
+         chars.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\MyProject\C++\visual studio 2015\carPlateRecognition_OOP\x64\Release\carPlateRecognition_OOP.exe" /INCREMENTAL:NO /NOLOGO opencv_world343.lib opencv_world343d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"F:\MyProject\C++\visual studio 2015\carPlateRecognition_OOP\x64\Release\carPlateRecognition_OOP.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\MyProject\C++\visual studio 2015\carPlateRecognition_OOP\x64\Release\carPlateRecognition_OOP.lib" /MACHINE:X64 x64\Release\chars.obj
+         x64\Release\chars_segment.obj
+         x64\Release\core_func.obj
+         x64\Release\main.obj
+         x64\Release\plate.obj
+         x64\Release\svm_train.obj
+         Generating code
+         2 of 1001 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           6 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         carPlateRecognition_OOP.vcxproj -> F:\MyProject\C++\visual studio 2015\carPlateRecognition_OOP\x64\Release\carPlateRecognition_OOP.exe
+     1>Done Building Project "F:\MyProject\C++\visual studio 2015\carPlateRecognition_OOP\carPlateRecognition_OOP\carPlateRecognition_OOP.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.33
